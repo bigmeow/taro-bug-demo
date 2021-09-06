@@ -1,4 +1,6 @@
+const path = require("path");
 module.exports = {
+  plugins: [path.resolve(__dirname, "..", "plugins/router")],
   env: {
     NODE_ENV: '"production"'
   },
